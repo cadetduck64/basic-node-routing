@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Error: 404</h1>
+    <p class="randomMessage">
+        <!-- dont know why you did that ¯\_(ツ)_/¯ -->
+    </p>
+    <a href="/">GO TO INDEX</a>
+    <script async>
+        randomMessageArr = ['dont know why you did that ¯\_(ツ)_/¯', 'dont know what you were expecting ¯\_(ツ)_/¯', 'never heard of it ¯\_(ツ)_/¯']
+    const message = document.querySelector('.randomMessage').innerHTML = randomMessageArr[Math.floor(Math.random() * randomMessageArr.length)]</script>
+</body>
+</html>
